@@ -30,7 +30,7 @@ int main()
             try
             {
                 K = stoi(stroka);
-                if ((to_string(K) == stroka))
+                if ((to_string(K) == stroka) and K>0)
                 {
                     a[i] = stroka;
                     break;
